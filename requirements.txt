@@ -1,0 +1,7 @@
+django
+djangorestframework==3.11.0
+ipdb==0.13.3
+Pillow==7.1.1
+django-rest-auth
+django-cors-headers
+drf-yasg

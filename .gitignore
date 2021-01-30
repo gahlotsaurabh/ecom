@@ -1,3 +1,4 @@
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,7 +6,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+Migrations
 # Distribution / packaging
 .Python
 build/
@@ -60,6 +61,7 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+migrations/
 
 # Flask stuff:
 instance/
@@ -94,9 +96,6 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +126,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
+
+.DS_Store
+
+rest.http
+
+# project images
+media
+product_img
